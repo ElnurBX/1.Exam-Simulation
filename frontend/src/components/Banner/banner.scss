@@ -1,0 +1,26 @@
+.sorcule{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    gap: 10px;
+    button{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background: #b6b6b6;
+        border: 1px #b6b6b6 solid;
+    }
+    .carusel-text{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+}
